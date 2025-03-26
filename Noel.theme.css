@@ -1,0 +1,205 @@
+/**
+* @name Noel - Glassy Discord
+* @author Ristellise
+* @version 1.0
+* @description A stupidly simple anime theme
+*/
+
+
+:root {
+    /*
+      Theme Background
+    */
+    --theme-background-image: url(https://files.catbox.moe/1jfzxs.png);
+
+    /*
+      Main Theme Color
+    */
+    --main-theme-color: rgb(151, 181, 67);
+
+    --color: 0, 25, 30;
+    --color-glass: rgba(var(--color), 0.5);
+    --color-glass-darker: rgba(var(--color), 0.75);
+    --color-solid: rgba(var(--color));
+    --modal-background: rgb(var(--color)) !important;
+    --custom-gif-picker-gutter-size: 12px 16px 12px 16px;
+
+    /*
+      Home Icon Image
+    */
+    --home-icon-image: url(https://files.catbox.moe/kpdpsb.png);
+
+    --blockquote-color: rgb(48, 226, 57);
+}
+
+#app-mount {
+    background-image: var(--theme-background-image);
+    background-size: cover;
+}
+
+.tutorialContainer__1f388 .wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8,
+.tutorialContainer__1f388 .wrapper__6e9f8:hover .childWrapper__6e9f8 {
+    background-color: transparent;
+    background-image: var(--home-icon-image);
+    background-size: cover;
+}
+
+.tutorialContainer__1f388 .visual-refresh .childWrapperNoHoverBg__6e9f8 {
+    background-color: transparent;
+    background-image: var(--home-icon-image);
+    background-size: cover;
+
+}
+
+.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 > svg,
+.wrapper__6e9f8:hover .childWrapper__6e9f8 > svg {
+    opacity: 0;
+}
+
+.visual-refresh .childWrapperNoHoverBg__6e9f8 > svg {
+    opacity: 0;
+}
+
+.visual-refresh .wrapper_ef3116 {
+    background-color: var(--color-glass);
+    margin-bottom: 0;
+    padding-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs) * 2);
+    background-clip: content-box, padding-box, margin-box;
+    
+}
+
+.visual-refresh .container__2637a {
+
+    background-color: transparent;
+}
+
+.app__160d8 {
+    background-color: var(--color-glass);
+}
+
+.visual-refresh .bg__960e4 {
+    background-color: var(--color-glass);
+}
+
+.visual-refresh .container__2637a {
+    background-color: var(--color-glass);
+}
+
+.visual-refresh .chatContent_f75fb0 {
+    background-color: var(--color-glass);
+}
+
+.visual-refresh .chat_f75fb0 {
+    background-color: var(--color-glass);
+
+}
+
+.visual-refresh .blockquoteDivider__75297 {
+    background-color: var(--blockquote-color);
+}
+
+.visual-refresh .blockquoteContainer__75297 {
+    color: var(--blockquote-color);
+}
+
+.visual-refresh .panels_c48ade {
+    background-color: var(--color-glass);
+}
+
+.visual-refresh .sidebar_c48ade:after {
+    background-color: var(--color-glass);
+}
+
+.members_c8ffbb {
+    background-color: var(--color-glass);
+}
+
+:where(.visual-refresh) .menu_c1e9c4 {
+    background-color: var(--color-solid);
+}
+
+:where(.visual-refresh) .themedBackground__74017 {
+    background-color: var(--color-solid);
+}
+
+.visual-refresh .embedFull__623de {
+    background-color: var(--color-glass);
+}
+
+.member_c8ffbb {
+    background-color: transparent;
+}
+.container_c8ffbb {
+    background-color: transparent;
+}
+
+.visual-refresh .wrapper_d852db {
+    background-color: transparent;
+}
+
+.visual-refresh .wrapper_fc8177 {
+    background-color: transparent;
+}
+
+.visual-refresh .contentWrapper__08434 {
+    background-color: var(--color-glass);
+}
+
+.container_fed6d3 {
+    background-color: var(--color-glass);
+}
+
+.theme-dark .themed__9293f {
+    background-color: var(--color-glass);
+}
+
+.nowPlayingColumn__133bf {
+    background-color: var(--color-glass);
+}
+
+.visual-refresh .tabBody__133bf {
+    background-color: var(--color-glass);
+}
+
+.visual-refresh .container__133bf {
+    background-color: transparent;
+}
+
+.visual-refresh .header_fed6d3 {
+    background-color: var(--color-glass);
+}
+
+.visual-refresh .header_c0e32c {
+    background-color: transparent;
+}
+
+.visual-refresh .wrapper__4e6ce {
+    background-color: transparent;
+}
+.visual-refresh .privateChannels__35e86 {
+
+    background-color: var(--color-glass);
+}
+
+.visual-refresh .emojiPicker_c0e32c {
+    background-color: var(--color-glass-darker);
+}
+
+.visual-refresh .wrapper__14245 {
+    background-color: var(--color-glass-darker);
+    border-radius: 1rem;
+}
+
+.visual-refresh .bottomBar__0f481 {
+    background-color: var(--color-solid);
+}
+
+.container__7d20c {
+    background-color: transparent;
+}
+.visual-refresh .scroller__99e7c {
+    background-color: transparent;
+    /* padding-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs) * 2); */
+    background-clip: content-box, padding-box, margin-box;
+    /* margin-bottom: 0; */
+}
